@@ -1,0 +1,3 @@
+/* Author: Frank esher Lämmer
+*/// enable video background via jquery.videobackground.js
+$(document).ready(function(){$("body").prepend('<div class="video-background"></div>');var a=$(".video-background").videobackground({videoSource:[["video/clouds.mp4","video/mp4"],["video/clouds_6.webm","video/webm"],["video/clouds.ogv","video/ogg"]],controlPosition:"#main",loop:!0,poster:"video/clouds.jpg",resizeTo:$.browser.mozilla?"window":"document",loadedCallback:function(){$(this).videobackground("mute")}});$(".ui-video-background").hide()});
