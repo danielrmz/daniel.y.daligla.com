@@ -55,9 +55,15 @@
 			opacity: 1;
 		}
 		
+		.dayCounts h3:hover .together {
+			color: #CD2626;
+		}
+		.footer .heart {
+			color: #CD2626;
+		}
+		
 		.together {
 			font-style: italic; 
-			co
 		}
 		
 		#content .wrapper {
