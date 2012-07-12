@@ -1,0 +1,75 @@
+
+		#title {
+			position: relative;
+		}
+		#title {
+			margin: 0 auto;
+			width: 500px; 
+			position:relative;
+			left: -30px;
+		}
+		#title h1 {
+			font-family: "Syncopate", sans-serif;
+			width:500px;
+		}
+		#title h2 {
+			float: right;
+			right: 60px;
+			top: 20px;
+			color: #CD2626;
+			font-size: 100px !important;
+			position: absolute;
+		}
+		#title h2 span {
+			position: relative;
+			top: 10px;
+		}
+		
+		#title h3 {
+			margin-left: 40px;
+			margin-bottom: 0;
+			margin-top: 10px;
+		}
+		
+		.dayCounts {
+			font-size: 20px;
+		}
+		
+		.dayCounts h3 {
+			text-align:center;
+			text-shadow: 0px 0px 50px #ABDDF1;#ffffff;
+      filter: dropshadow(color=#ffffff, offx=0, offy=0);
+      opacity: 0.5;
+			font-family: "Italiana";
+			width: 600px;
+			cursor: pointer;
+			margin-top: 0 !important;
+			margin-bottom: 0 !important;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: #666;
+		}
+		
+		.dayCounts .active, .dayCounts h3:hover {
+			font-size: 30px;
+			opacity: 1;
+		}
+		
+		.together {
+			font-style: italic; 
+			co
+		}
+		
+		#content .wrapper {
+			width: 600px !important;
+		}
+		
+		.footer {
+			position: fixed;
+			bottom: 0;
+			text-align: center;
+			margin: 0; auto;
+			width: 100%;
+			background: #efefef; 
+			border-top: 1px solid silver;
+		}
